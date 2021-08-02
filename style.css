@@ -1,0 +1,40 @@
+body {
+    background-color: yellowgreen;
+    font-family: cursive;
+    font-style: unset;
+}
+
+#userGithub {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countries {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: rgb(52, 7, 97);
+}
+
+#list-negara {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3%;
+    padding: 1%;
+}
+
+#negara {
+    width: 120px;
+    margin: 0;
+}
+
+#negara img {
+    width: 90%;
+}
+
+#negara span {
+    width: 100px;
+}
